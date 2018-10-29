@@ -1,10 +1,14 @@
 {
   "name": "beautiful-gardens",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Static website generator boilerplate",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lheisey/beautiful-gardens.git"
   },
   "keywords": [
     "Gulp",
@@ -14,6 +18,10 @@
   ],
   "author": "Loren Heisey",
   "license": "GPL-2.0",
+    "bugs": {
+    "url": "https://github.com/lheisey/beautiful-gardens/issues"
+  },
+  "homepage": "https://github.com/lheisey/beautiful-gardens#readme",
   "devDependencies": {
     "bootstrap-sass": "^3.3.7",
     "browser-sync": "^2.24.7",
