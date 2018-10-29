@@ -1,0 +1,225 @@
+// Variable overrides
+
+$brand-primary: #265D48;
+$brand-secondary: #275914;
+$brand-tertiary: #802916;
+$brand-quaternary: #5F5720;
+$text-color-light: #fff;
+$gray-light-more: #ccc;
+$gray-lighter-more: #f4f4f4;
+
+$navbar-inverse-custom-bg: $brand-secondary;
+$navbar-inverse-custom-active-bg: #a4b993;
+$navbar-inverse-custom-link-color: #000;
+$navbar-inverse-custom-color: $gray-lighter-more;
+
+//=== Inverted navbar
+// Reset inverted navbar basics
+$navbar-inverse-color: $navbar-inverse-custom-color;
+$navbar-inverse-bg: $navbar-inverse-custom-bg;
+$navbar-inverse-border: darken($navbar-inverse-bg, 10%);
+
+// Inverted navbar links
+$navbar-inverse-link-color: $navbar-inverse-custom-color;
+$navbar-inverse-link-hover-color: $navbar-inverse-custom-link-color;
+$navbar-inverse-link-hover-bg: transparent;
+$navbar-inverse-link-active-color: $navbar-inverse-custom-link-color;
+$navbar-inverse-link-active-bg: $navbar-inverse-custom-active-bg;
+$navbar-inverse-link-disabled-color: #444;
+$navbar-inverse-link-disabled-bg: transparent;
+
+// Inverted navbar brand label
+$navbar-inverse-brand-color: $navbar-inverse-link-color;
+$navbar-inverse-brand-hover-color: #fff;
+$navbar-inverse-brand-hover-bg: transparent;
+
+// Inverted navbar toggle
+$navbar-inverse-toggle-hover-bg: $navbar-inverse-custom-active-bg;
+$navbar-inverse-toggle-icon-bar-bg: #fff;
+$navbar-inverse-toggle-border-color: $navbar-inverse-custom-active-bg;
+
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap.scss";
+@import "./font-awesome/font-awesome.scss";
+
+/*!
+ * Custom styles
+ */
+
+body {
+  background: $gray-lighter;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  font-family: "Bree Serif", serif;
+}
+
+.page-top {
+  width: 100%;
+  height: 60px;
+}
+
+.page-top .media-heading {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: "Bree Serif", serif;
+  color: $brand-tertiary;
+}
+
+.navbar-nav > li > a {
+  padding: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  border-right: 1px solid $gray-light-more;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.navbar-nav a:hover,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background: $navbar-inverse-custom-active-bg !important;
+  color: $navbar-inverse-custom-link-color !important;
+}
+
+#navbar .dropdown-menu {
+  background-color: $navbar-inverse-custom-bg;
+}
+
+#navbar .dropdown-menu > li > a {
+  padding: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  border-right: 0;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;
+  color: $text-color-light;
+}
+
+section {
+  padding: 30px 0;
+}
+
+.section-primary {
+  background: $brand-primary;
+  color: $text-color-light;
+  padding: 60px 0;
+}
+
+.section-secondary {
+  background: $brand-secondary;
+  color: $text-color-light;
+  padding: 60px 0;
+}
+
+.section-title {
+  padding: 0 0 0 30px;
+  color: $brand-primary;
+}
+
+.section-nonavbar {
+  background: $brand-secondary;
+  color: $text-color-light;
+  padding: 30px 0 0 0;
+}
+
+.section-title small {
+  color: $gray-light-more !important;
+}
+
+.section-header {
+  color: $brand-tertiary;
+}
+
+.panel-heading {
+  font-size: 24px;
+}
+
+.section-seperator {
+  color: $brand-tertiary;
+}
+
+.fa-color {
+  color: $brand-primary;
+}
+
+.feature-list li {
+  list-style: none;
+  font-size: 18px;
+  line-height: 2em;
+}
+
+.section-seperator {
+    height: 2px;
+    background-color: $brand-tertiary;
+    color: $brand-tertiary;
+}
+
+footer {
+  text-align: center;
+  background: $brand-tertiary;
+  color: $text-color-light;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer a {
+  color: $gray-lighter;
+}
+
+#page-wrap {
+  margin-right: auto;
+  margin-left: auto;
+  background: white;
+  max-width: 1200px;
+}
+
+@media (min-width: 990px) {
+  .page-top {
+    height: 80px;
+  }
+  .page-top .media-heading {
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .page-top .media-heading {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 990px) {
+  .section-front .lead {
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-text {
+    float: right;
+    padding-right: 10px;
+    font-weight: bold;
+  }
+  #navbar .open .dropdown-menu > li > a,
+  .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 16px 15px 16px 40px;
+  }
+  .page-top .media-heading {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .page-top .media-heading {
+    padding-top: 0;
+  }
+}
+
+h1:hover {
+  transition: color 1s ease;
+}
