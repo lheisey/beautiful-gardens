@@ -147,9 +147,13 @@ section {
   color: $brand-primary;
 }
 
+.feature-header {
+  margin-top: 0;
+}
+
 .feature-list li {
   list-style: none;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 2em;
 }
 
