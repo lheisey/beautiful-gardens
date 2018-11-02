@@ -4,12 +4,14 @@ $brand-primary: #265D48;
 $brand-secondary: #275914;
 $brand-tertiary: #802916;
 $brand-quaternary: #5F5720;
+$brand-secondary-light: #a4b993;
+$brand-secondary-very-light: #E7F0D6;
 $text-color-light: #fff;
 $gray-light-more: #ccc;
 $gray-lighter-more: #f4f4f4;
 
 $navbar-inverse-custom-bg: $brand-secondary;
-$navbar-inverse-custom-active-bg: #a4b993;
+$navbar-inverse-custom-active-bg: $brand-secondary-light;
 $navbar-inverse-custom-link-color: #000;
 $navbar-inverse-custom-color: $gray-lighter-more;
 
@@ -46,7 +48,7 @@ $navbar-inverse-toggle-border-color: $navbar-inverse-custom-active-bg;
  */
 
 body {
-  background: $gray-lighter;
+  background: $brand-secondary-very-light;
   font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
@@ -164,6 +166,10 @@ section {
   line-height: 2em;
 }
 
+.feature-logos img {
+  margin: 4px;
+}
+
 .section-seperator {
     height: 2px;
     background-color: $brand-tertiary;
@@ -201,6 +207,9 @@ footer a {
 @media (min-width: 768px) {
   .page-top .media-heading {
     font-size: 40px;
+  }
+  .feature-logos img {
+    margin: 10px;
   }
 }
 
