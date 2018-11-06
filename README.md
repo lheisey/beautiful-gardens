@@ -47,6 +47,12 @@ For the default gulp task a browser should open with the Beautiful Gardens site.
 
 ## Changelog ##
 
+### 0.0.4 ###
+* Added links page text.
+
+### 0.0.3 ###
+* Added about page text and images.
+
 ### 0.0.2 ###
 * Added LICENSE.txt and Github info to package.json.
 
