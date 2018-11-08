@@ -41,6 +41,7 @@ var SOURCEPATHS = {
     htmlSource: 'src/pages/**/*.{html,hbs}',
     layoutSource: 'src/{layouts,partials}/**/*.{html,hbs}',
     imgSource: 'src/img/**/*',
+    imgGallerySource: 'src/gallery/**/*',
     fontSource: 'src/fonts/**/*',
     jsSpecificSource: 'src/js/js-specific/*.js',
     jsSource: [
@@ -69,6 +70,7 @@ var APPPATH = {
     css: 'dist/css',
     js: 'dist/js',
     img: 'dist/img',
+    gallery: 'dist/gallery',
     font: 'dist/fonts'
 };
 
@@ -150,6 +152,9 @@ gulp.task('copy-assets', function(done) {
     // Copy image files
     gulp.src(SOURCEPATHS.imgSource)
         .pipe(gulp.dest(APPPATH.img));
+    // Copy gallery image files
+    gulp.src(SOURCEPATHS.imgGallerySource)
+        .pipe(gulp.dest(APPPATH.gallery));
     // Copy font files
     gulp.src(SOURCEPATHS.fontSource)
         .pipe(gulp.dest(APPPATH.font));
@@ -176,7 +181,7 @@ gulp.task('serve', function(done) {
     gulp.watch(SOURCEPATHS.sassSource, gulp.parallel(styles));
     gulp.watch(SOURCEPATHS.htmlSource, gulp.parallel(pages));
     gulp.watch(SOURCEPATHS.layoutSource, gulp.series(resetPages, pages));
-    gulp.watch([SOURCEPATHS.imgSource, SOURCEPATHS.fontSource, SOURCEPATHS.cssSpecificSource, SOURCEPATHS.jsSpecificSource], gulp.parallel('copy-assets'));
+    gulp.watch([SOURCEPATHS.imgSource, SOURCEPATHS.imgGallerySource, SOURCEPATHS.fontSource, SOURCEPATHS.cssSpecificSource, SOURCEPATHS.jsSpecificSource], gulp.parallel('copy-assets'));
     done();
 });
 
