@@ -1,0 +1,68 @@
+{
+  "gallery1": [{
+    "thumbnail": "balboa-park-grounds-thumb-01.jpg",
+    "fullsize": "balboa-park-grounds-large-01.jpg",
+    "caption": "Picture 1"
+  }, {
+    "thumbnail": "balboa-park-grounds-thumb-02.jpg",
+    "fullsize": "balboa-park-grounds-large-02.jpg",
+    "caption": "Picture 2"
+  }, {
+    "thumbnail": "balboa-park-grounds-thumb-03.jpg",
+    "fullsize": "balboa-park-grounds-large-03.jpg",
+    "caption": "Picture 3"
+  }, {
+    "thumbnail": "balboa-park-grounds-thumb-04.jpg",
+    "fullsize": "balboa-park-grounds-large-04.jpg",
+    "caption": "Picture 4"
+  }, {
+    "thumbnail": "balboa-park-grounds-thumb-05.jpg",
+    "fullsize": "balboa-park-grounds-large-05.jpg",
+    "caption": "Picture 5"
+  }, {
+    "thumbnail": "balboa-park-grounds-thumb-06.jpg",
+    "fullsize": "balboa-park-grounds-large-06.jpg",
+    "caption": "Picture 6"
+  }],
+  "gallery2": [{
+    "thumbnail": "cedar-valley-arboretum-thumb-01.jpg",
+    "fullsize": "cedar-valley-arboretum-large-01.jpg",
+    "caption": "Picture 1"
+  }, {
+    "thumbnail": "cedar-valley-arboretum-thumb-02.jpg",
+    "fullsize": "cedar-valley-arboretum-large-02.jpg",
+    "caption": "Picture 2"
+  }, {
+    "thumbnail": "cedar-valley-arboretum-thumb-03.jpg",
+    "fullsize": "cedar-valley-arboretum-large-03.jpg",
+    "caption": "Picture 3"
+  }, {
+    "thumbnail": "cedar-valley-arboretum-thumb-04.jpg",
+    "fullsize": "cedar-valley-arboretum-large-04.jpg",
+    "caption": "Picture 4"
+  }, {
+    "thumbnail": "cedar-valley-arboretum-thumb-05.jpg",
+    "fullsize": "cedar-valley-arboretum-large-05.jpg",
+    "caption": "Picture 5"
+  }, {
+    "thumbnail": "cedar-valley-arboretum-thumb-06.jpg",
+    "fullsize": "cedar-valley-arboretum-large-06.jpg",
+    "caption": "Picture 6"
+  }, {
+    "thumbnail": "cedar-valley-arboretum-thumb-07.jpg",
+    "fullsize": "cedar-valley-arboretum-large-07.jpg",
+    "caption": "Picture 7"
+  }, {
+    "thumbnail": "cedar-valley-arboretum-thumb-08.jpg",
+    "fullsize": "cedar-valley-arboretum-large-08.jpg",
+    "caption": "Picture 8"
+  }, {
+    "thumbnail": "cedar-valley-arboretum-thumb-09.jpg",
+    "fullsize": "cedar-valley-arboretum-large-09.jpg",
+    "caption": "Picture 9"
+  }, {
+    "thumbnail": "cedar-valley-arboretum-thumb-10.jpg",
+    "fullsize": "cedar-valley-arboretum-large-10.jpg",
+    "caption": "Picture 10"
+  }]
+}
