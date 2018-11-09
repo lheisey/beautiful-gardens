@@ -1,11 +1,11 @@
 // Variable overrides
 
-$brand-primary: #265D48;
+$brand-primary: #265d48;
 $brand-secondary: #275914;
 $brand-tertiary: #802916;
-$brand-quaternary: #5F5720;
+$brand-quaternary: #5f5720;
 $brand-secondary-light: #a4b993;
-$brand-secondary-very-light: #E7F0D6;
+$brand-secondary-very-light: #e7f0d6;
 $text-color-light: #fff;
 $gray-light-more: #ccc;
 $gray-lighter-more: #f4f4f4;
@@ -130,13 +130,13 @@ section {
 }
 
 .section-title hr {
-	height: 3px;
-	width: 100px;
-	margin-left: 0;
+  height: 3px;
+  width: 100px;
+  margin-left: 0;
   text-align: left;
-	position: relative;
-	background: $brand-tertiary;
-	border: 0;
+  position: relative;
+  background: $brand-tertiary;
+  border: 0;
 }
 
 .section-header h2 {
@@ -171,9 +171,9 @@ section {
 }
 
 .section-seperator {
-    height: 2px;
-    background-color: $brand-tertiary;
-    color: $brand-tertiary;
+  height: 2px;
+  background-color: $brand-tertiary;
+  color: $brand-tertiary;
 }
 
 .links-list li {
@@ -198,6 +198,34 @@ footer a {
   margin-left: auto;
   background: white;
   max-width: 1200px;
+}
+
+// lightGallery
+.garden-gallery > ul {
+  margin-bottom: 0;
+}
+.garden-gallery > ul > li {
+  float: left;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  width: 200px;
+}
+.garden-gallery > ul > li a {
+  border: 3px solid #fff;
+  border-radius: 3px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+.garden-gallery > ul > li a > img {
+  transition: transform 0.15s ease 0s;
+  transform: scale3d(1, 1, 1);
+  height: 100%;
+  width: 100%;
+}
+.garden-gallery > ul > li a:hover > img {
+  transform: scale3d(1.1, 1.1, 1.1);
 }
 
 @media (min-width: 990px) {
@@ -243,8 +271,4 @@ footer a {
   .page-top .media-heading {
     padding-top: 0;
   }
-}
-
-h1:hover {
-  transition: color 1s ease;
 }
