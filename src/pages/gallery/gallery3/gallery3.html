@@ -1,19 +1,30 @@
 ---
 layout: default
-title: Gallery 3
+title: UC Irvine Campus Picture Gallery
+lightgallery: true
 ---
 <section class="section-title">
   <div class="container">
-    <h1>Picture Gallery #3</h1>
-  </div>
-</section>
-
-<section>
-  <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porttitor sapien sit amet ante sodales interdum. Curabitur in est risus</p>
+        <h1>UC Irvine Campus Picture Gallery</h1>
+        <hr>
       </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="garden-gallery">
+      <ul id="lightgallery" class="list-unstyled">
+        {{#each galleries.gallery3}}
+          <li class="col-xs-6 col-sm-4 col-md-3" data-src="{{fullsize}}" data-sub-html="<h4>{{caption}}</h4>">
+            <a href="">
+              <img class="img-responsive img-thumbnail" src="{{thumbnail}}">
+            </a>
+          </li>
+        {{/each}}
+      </ul>
     </div>
   </div>
 </section>

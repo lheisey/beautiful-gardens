@@ -19,6 +19,7 @@ The Beautiful Gardens static website generator boilerplate was developed for use
 * Supports using certain CSS and JavaScript files only on specific pages
 * Watch for file changes to recompile
 * Live reload browser with BrowserSync
+* Separate handling of images in picture gallery
 
 ## How to use boilerplate ##
 
@@ -46,6 +47,9 @@ gulp        //builds and runs BrowserSync
 For the default gulp task a browser should open with the Beautiful Gardens site.
 
 ## Changelog ##
+
+### 0.0.5 ###
+* Added gallery pages.
 
 ### 0.0.4 ###
 * Added links page text.

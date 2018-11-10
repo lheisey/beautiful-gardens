@@ -23,6 +23,46 @@
     "thumbnail": "balboa-park-grounds-thumb-06.jpg",
     "fullsize": "balboa-park-grounds-large-06.jpg",
     "caption": "Picture 6"
+  }, {
+    "thumbnail": "balboa-park-grounds-thumb-07.jpg",
+    "fullsize": "balboa-park-grounds-large-07.jpg",
+    "caption": "Picture 7"
+  }, {
+    "thumbnail": "balboa-park-grounds-thumb-08.jpg",
+    "fullsize": "balboa-park-grounds-large-08.jpg",
+    "caption": "Picture 8"
+  }, {
+    "thumbnail": "balboa-park-grounds-thumb-09.jpg",
+    "fullsize": "balboa-park-grounds-large-09.jpg",
+    "caption": "Picture 9"
+  }, {
+    "thumbnail": "balboa-park-grounds-thumb-10.jpg",
+    "fullsize": "balboa-park-grounds-large-10.jpg",
+    "caption": "Picture 10"
+  }, {
+    "thumbnail": "balboa-park-grounds-thumb-11.jpg",
+    "fullsize": "balboa-park-grounds-large-11.jpg",
+    "caption": "Picture 11"
+  }, {
+    "thumbnail": "balboa-park-grounds-thumb-12.jpg",
+    "fullsize": "balboa-park-grounds-large-12.jpg",
+    "caption": "Picture 12"
+  }, {
+    "thumbnail": "balboa-park-grounds-thumb-13.jpg",
+    "fullsize": "balboa-park-grounds-large-13.jpg",
+    "caption": "Picture 13"
+  }, {
+    "thumbnail": "balboa-park-grounds-thumb-14.jpg",
+    "fullsize": "balboa-park-grounds-large-14.jpg",
+    "caption": "Picture 14"
+  }, {
+    "thumbnail": "balboa-park-grounds-thumb-15.jpg",
+    "fullsize": "balboa-park-grounds-large-15.jpg",
+    "caption": "Picture 15"
+  }, {
+    "thumbnail": "balboa-park-grounds-thumb-16.jpg",
+    "fullsize": "balboa-park-grounds-large-16.jpg",
+    "caption": "Picture 16"
   }],
   "gallery2": [{
     "thumbnail": "cedar-valley-arboretum-thumb-01.jpg",
@@ -64,5 +104,95 @@
     "thumbnail": "cedar-valley-arboretum-thumb-10.jpg",
     "fullsize": "cedar-valley-arboretum-large-10.jpg",
     "caption": "Picture 10"
-  }]
+  }],
+  "gallery3": [{
+    "thumbnail": "uc-irvine-campus-thumb-01.jpg",
+    "fullsize": "uc-irvine-campus-large-01.jpg",
+    "caption": "Picture 1"
+  }, {
+    "thumbnail": "uc-irvine-campus-thumb-02.jpg",
+    "fullsize": "uc-irvine-campus-large-02.jpg",
+    "caption": "Picture 2"
+  }, {
+    "thumbnail": "uc-irvine-campus-thumb-03.jpg",
+    "fullsize": "uc-irvine-campus-large-03.jpg",
+    "caption": "Picture 3"
+  }, {
+    "thumbnail": "uc-irvine-campus-thumb-04.jpg",
+    "fullsize": "uc-irvine-campus-large-04.jpg",
+    "caption": "Picture 4"
+  }, {
+    "thumbnail": "uc-irvine-campus-thumb-05.jpg",
+    "fullsize": "uc-irvine-campus-large-05.jpg",
+    "caption": "Picture 5"
+  }, {
+    "thumbnail": "uc-irvine-campus-thumb-06.jpg",
+    "fullsize": "uc-irvine-campus-large-06.jpg",
+    "caption": "Picture 6"
+  }, {
+    "thumbnail": "uc-irvine-campus-thumb-07.jpg",
+    "fullsize": "uc-irvine-campus-large-07.jpg",
+    "caption": "Picture 7"
+  }, {
+    "thumbnail": "uc-irvine-campus-thumb-08.jpg",
+    "fullsize": "uc-irvine-campus-large-08.jpg",
+    "caption": "Picture 8"
+  }, {
+    "thumbnail": "uc-irvine-campus-thumb-09.jpg",
+    "fullsize": "uc-irvine-campus-large-09.jpg",
+    "caption": "Picture 9"
+  }, {
+    "thumbnail": "uc-irvine-campus-thumb-10.jpg",
+    "fullsize": "uc-irvine-campus-large-10.jpg",
+    "caption": "Picture 10"
+  }],
+  "gallery4": [{
+  "thumbnail": "desert-garden-in-balboa-park-thumb-01.jpg",
+  "fullsize": "desert-garden-in-balboa-park-large-01.jpg",
+  "caption": "Picture 1"
+}, {
+  "thumbnail": "desert-garden-in-balboa-park-thumb-02.jpg",
+  "fullsize": "desert-garden-in-balboa-park-large-02.jpg",
+  "caption": "Picture 2"
+}, {
+  "thumbnail": "desert-garden-in-balboa-park-thumb-03.jpg",
+  "fullsize": "desert-garden-in-balboa-park-large-03.jpg",
+  "caption": "Picture 3"
+}, {
+  "thumbnail": "desert-garden-in-balboa-park-thumb-04.jpg",
+  "fullsize": "desert-garden-in-balboa-park-large-04.jpg",
+  "caption": "Picture 4"
+}, {
+  "thumbnail": "desert-garden-in-balboa-park-thumb-05.jpg",
+  "fullsize": "desert-garden-in-balboa-park-large-05.jpg",
+  "caption": "Picture 5"
+}, {
+  "thumbnail": "desert-garden-in-balboa-park-thumb-06.jpg",
+  "fullsize": "desert-garden-in-balboa-park-large-06.jpg",
+  "caption": "Picture 6"
+}, {
+  "thumbnail": "desert-garden-in-balboa-park-thumb-07.jpg",
+  "fullsize": "desert-garden-in-balboa-park-large-07.jpg",
+  "caption": "Picture 7"
+}, {
+  "thumbnail": "desert-garden-in-balboa-park-thumb-08.jpg",
+  "fullsize": "desert-garden-in-balboa-park-large-08.jpg",
+  "caption": "Picture 8"
+}, {
+  "thumbnail": "desert-garden-in-balboa-park-thumb-09.jpg",
+  "fullsize": "desert-garden-in-balboa-park-large-09.jpg",
+  "caption": "Picture 9"
+}, {
+  "thumbnail": "desert-garden-in-balboa-park-thumb-10.jpg",
+  "fullsize": "desert-garden-in-balboa-park-large-10.jpg",
+  "caption": "Picture 10"
+}, {
+  "thumbnail": "desert-garden-in-balboa-park-thumb-11.jpg",
+  "fullsize": "desert-garden-in-balboa-park-large-11.jpg",
+  "caption": "Picture 11"
+}, {
+  "thumbnail": "desert-garden-in-balboa-park-thumb-12.jpg",
+  "fullsize": "desert-garden-in-balboa-park-large-12.jpg",
+  "caption": "Picture 12"
+}]
 }
