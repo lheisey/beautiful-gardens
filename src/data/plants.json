@@ -1,0 +1,46 @@
+{
+  "headername": "Plant",
+  "headertype": "Type",
+  "headergarden": "Garden",
+  "gardendata": [{
+      "name": "Plant 1",
+      "type": "Type 1",
+      "garden": "Garden 1"
+    },
+    {
+      "name": "Plant 2",
+      "type": "Type 3",
+      "garden": "Garden 2"
+    },
+    {
+      "name": "Plant 3",
+      "type": "Type 3",
+      "garden": "Garden 3"
+    },
+    {
+      "name": "Plant 4",
+      "type": "Type 2",
+      "garden": "Garden 3"
+    },
+    {
+      "name": "Plant 5",
+      "type": "Type 1",
+      "garden": "Garden 3"
+    },
+    {
+      "name": "Plant 6",
+      "type": "Type 1",
+      "garden": "Garden 4"
+    },
+    {
+      "name": "Plant 7",
+      "type": "Type 3",
+      "garden": "Garden 4"
+    },
+    {
+      "name": "Plant 8",
+      "type": "Type 2",
+      "garden": "Garden 1"
+    }
+  ]
+}
