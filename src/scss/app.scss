@@ -187,6 +187,69 @@ section {
   line-height: 2em;
 }
 
+/* gallery index */
+
+.gallery-index .item {
+  position: relative;
+  background: url(library/images/no-image.jpg) no-repeat center center #fff;
+  height: 100%;
+  margin-bottom: 2%;
+  overflow: hidden;
+  box-shadow: 0 0 5px #dedede;
+  border: 1px solid #fff;
+}
+
+.gallery-index .item-content {
+  width: 100%;
+  position: absolute;
+  bottom: -10px;
+  word-wrap: break-word;
+}
+
+.gallery-index .item-content header {
+  position: relative;
+  width: 100%;
+  z-index: 3;
+}
+
+.gallery-index .item-content p {
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 1.3em;
+}
+
+.gallery-index .item-content p:hover {
+  background: url(../img/trans2.png);
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.gallery-index .item-content p a {
+  display: block;
+  padding: 12px 15px 17px 15px;
+  text-decoration: none;
+}
+
+.gallery-index .item-content .item-caption {
+  border-bottom: 0;
+  font-size: 1.3em;
+}
+
+.gallery-index .item-content header a {
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+}
+
+.gallery-index .item img {
+/*  position: absolute; */
+  height: auto;
+  width: auto;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  text-align: center;
+}
+
 footer {
   text-align: center;
   background: $brand-tertiary;
