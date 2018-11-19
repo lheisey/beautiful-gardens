@@ -40,9 +40,9 @@ var SOURCEPATHS = {
     cssSpecificSource: 'src/scss/css-specific/*.css',
     htmlSource: 'src/pages/**/*.{html,hbs}',
     layoutSource: 'src/{layouts,partials}/**/*.{html,hbs}',
-    imgSource: 'src/img/**/*',
-    imgGallerySource: 'src/gallery/**/*',
-    fontSource: 'src/fonts/**/*',
+    imgSource: 'src/img/**/*.{png,jpg,gif,svg}',
+    imgGallerySource: 'src/gallery/**/*.{png,jpg,gif,svg}',
+    fontSource: 'src/fonts/**/*.{otf,eot,svg,ttf,woff,woff2}',
     jsSpecificSource: 'src/js/js-specific/*.js',
     jsSource: [
         'src/js/jquerycheck.js',
@@ -139,11 +139,12 @@ function resetPages(done) {
 
 /**
 * Reload the browser with Browser-Sync
-*/
+*
 function reload(done) {
     browserSync.reload();
     done();
 }
+*/
 
 /**
 * Copy assets

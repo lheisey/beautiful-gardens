@@ -20,6 +20,9 @@ The Beautiful Gardens static website generator boilerplate was developed for use
 * Watch for file changes to recompile
 * Live reload browser with BrowserSync
 * Separate handling of images in picture gallery
+* Responsive light gallery supporting touch and swipe navigation with jQuery lightgallery
+* Cross-browser CSS animations with animate.css
+* Table sorting with jquery.tablesorter.js (FORK)
 
 ## How to use boilerplate ##
 
@@ -47,6 +50,18 @@ gulp        //builds and runs BrowserSync
 For the default gulp task a browser should open with the Beautiful Gardens site.
 
 ## Changelog ##
+
+### 0.0.9 ###
+* Changed image and font file handling to specific file extensions
+
+### 0.0.8 ###
+* Added Picture Galleries page information
+
+### 0.0.7 ###
+* Added table sorting
+
+### 0.0.6 ###
+* Added Plant List page
 
 ### 0.0.5 ###
 * Added gallery pages.
