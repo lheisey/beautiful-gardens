@@ -51,6 +51,9 @@ For the default gulp task a browser should open with the Beautiful Gardens site.
 
 ## Changelog ##
 
+### 0.0.10 ###
+* Removed unused Bootstrap javascript
+
 ### 0.0.9 ###
 * Changed image and font file handling to specific file extensions
 
