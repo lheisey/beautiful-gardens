@@ -31,12 +31,13 @@ var autoprefixerOptions = {
 var sassOptions = {
     precision: 8,
     errLogToConsole: true,
-    outputStyle: 'expanded'
+    outputStyle: 'expanded',
+    includePaths: BOOTSTRAP + '/stylesheets'
 };
 
 var SOURCEPATHS = {
     sourceFolder: 'src/',
-    sassSource: 'src/scss/*.scss',
+    sassSource: 'src/scss/app.scss',
     cssSpecificSource: 'src/scss/css-specific/*.css',
     htmlSource: 'src/pages/**/*.{html,hbs}',
     layoutSource: 'src/{layouts,partials}/**/*.{html,hbs}',

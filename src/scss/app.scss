@@ -42,7 +42,8 @@ $navbar-inverse-toggle-hover-bg: $navbar-inverse-custom-active-bg;
 $navbar-inverse-toggle-icon-bar-bg: #fff;
 $navbar-inverse-toggle-border-color: $navbar-inverse-custom-active-bg;
 
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap.scss";
+/* Edit bootstrap.scss to pick CSS components used in project  */
+@import "bootstrap.scss";
 @import "./font-awesome/font-awesome.scss";
 
 /*!

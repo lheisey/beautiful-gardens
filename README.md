@@ -16,6 +16,7 @@ The Beautiful Gardens static website generator boilerplate was developed for use
 * CSS Autoprefixing
 * Sitewide CSS and JavaScript output to single files
 * CSS and JavaScript file minification
+* Choose Bootstrap CSS and JavaScript components to use in project
 * Supports using certain CSS and JavaScript files only on specific pages
 * Watch for file changes to recompile
 * Live reload browser with BrowserSync
@@ -50,6 +51,9 @@ gulp        //builds and runs BrowserSync
 For the default gulp task a browser should open with the Beautiful Gardens site.
 
 ## Changelog ##
+
+### 0.0.11 ###
+* Removed unused Bootstrap CSS
 
 ### 0.0.10 ###
 * Removed unused Bootstrap javascript
