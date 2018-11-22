@@ -192,7 +192,7 @@ section {
 
 .gallery-index .item {
   position: relative;
-  background: url(library/images/no-image.jpg) no-repeat center center #fff;
+  background: #fff;
   height: 100%;
   margin-bottom: 2%;
   overflow: hidden;
@@ -242,7 +242,7 @@ section {
 }
 
 .gallery-index .item img {
-/*  position: absolute; */
+  /*  position: absolute; */
   height: auto;
   width: auto;
   height: 100%;
@@ -660,5 +660,25 @@ $sortDescWhite: url(data:image/gif;base64,R0lGODlhFQAEAIAAAP///////yH5BAEAAAEALA
 @media (max-width: 400px) {
   .page-top .media-heading {
     padding-top: 0;
+  }
+}
+
+/* Print styles */
+@media print {
+  #page-wrap {
+    max-width: 100%;
+  }
+  .gallery-index .item-content {
+    position: static;
+  }
+  .wow {
+    visibility: visible !important;
+    animation: none !important;
+  }
+  a[href]:after {
+    content: none;
+  }
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
   }
 }

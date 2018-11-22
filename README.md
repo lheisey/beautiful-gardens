@@ -52,6 +52,9 @@ For the default gulp task a browser should open with the Beautiful Gardens site.
 
 ## Changelog ##
 
+### 0.0.12 ###
+* Updates to print styles
+
 ### 0.0.11 ###
 * Removed unused Bootstrap CSS
 

@@ -40,7 +40,7 @@ var SOURCEPATHS = {
     sassSource: 'src/scss/app.scss',
     cssSpecificSource: 'src/scss/css-specific/*.css',
     htmlSource: 'src/pages/**/*.{html,hbs}',
-    layoutSource: 'src/{layouts,partials}/**/*.{html,hbs}',
+    layoutSource: 'src/{layouts,partials,data,helpers}/**/*.{html,hbs}',
     imgSource: 'src/img/**/*.{png,jpg,gif,svg}',
     imgGallerySource: 'src/gallery/**/*.{png,jpg,gif,svg}',
     fontSource: 'src/fonts/**/*.{otf,eot,svg,ttf,woff,woff2}',
@@ -131,7 +131,7 @@ function pages() {
 }
 
 /**
-* Reload the browser with Browser-Sync
+* Load updates to HTML templates into Panini
 */
 function resetPages(done) {
     panini.refresh();
