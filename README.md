@@ -52,6 +52,9 @@ For the default gulp task a browser should open with the Beautiful Gardens site.
 
 ## Changelog ##
 
+### 0.1.0 ###
+* Change CRLF line endings to LF
+
 ### 0.0.12 ###
 * Updates to print styles
 
