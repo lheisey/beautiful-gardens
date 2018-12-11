@@ -24,6 +24,7 @@ The Beautiful Gardens static website generator boilerplate was developed for use
 * Responsive light gallery supporting touch and swipe navigation with jQuery lightgallery
 * Cross-browser CSS animations with animate.css
 * Table sorting with jquery.tablesorter.js (FORK)
+* Scroll to top of page
 
 ## How to use boilerplate ##
 
@@ -51,6 +52,9 @@ gulp        //builds and runs BrowserSync
 For the default gulp task a browser should open with the Beautiful Gardens site.
 
 ## Changelog ##
+
+### 0.1.1 ###
+* Add scroll to top of page
 
 ### 0.1.0 ###
 * Change CRLF line endings to LF
