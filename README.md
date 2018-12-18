@@ -53,8 +53,14 @@ For the default gulp task a browser should open with the Beautiful Gardens site.
 
 ## Changelog ##
 
+### 0.1.2 ###
+* Changed Links page to two column layout
+* Fixed double css class in navbar
+* Fixed link to Home page for site logo
+* Fixed missing div on Home page
+
 ### 0.1.1 ###
-* Add scroll to top of page
+* Added scroll to top of page
 
 ### 0.1.0 ###
 * Change CRLF line endings to LF

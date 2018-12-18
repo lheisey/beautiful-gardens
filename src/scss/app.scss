@@ -6,6 +6,7 @@ $brand-tertiary: #802916;
 $brand-quaternary: #5f5720;
 $brand-primary-medium: #8bd0b5;
 $brand-primary-light: #cceadf;
+$brand-primary-very-light: #e4fff7;
 $brand-secondary-light: #a4b993;
 $brand-secondary-very-light: #e7f0d6;
 $text-color-light: #fff;
@@ -145,6 +146,31 @@ h3 {
   text-transform: uppercase;
   font-family: $font-family-condensed;
   color: $text-color-light;
+}
+
+.menu-side {
+  border-bottom: 1px solid $brand-primary;
+}
+
+.menu-side .nav > li + li {
+  margin-top: 0;
+}
+
+.menu-side .nav a {
+  border: 1px solid $brand-primary;
+  border-bottom: none;
+  background-color: $brand-primary-very-light;
+}
+
+.menu-side .active {
+  padding: 10px 15px 10px 15px;
+  color: $text-color-light;
+  background-color: $brand-primary;
+}
+
+.menu-side .nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: $brand-primary-light;
 }
 
 section {
@@ -672,6 +698,9 @@ $sortDescWhite: url(data:image/gif;base64,R0lGODlhFQAEAIAAAP///////yH5BAEAAAEALA
   .feature-logos img {
     margin: 10px;
   }
+  .menu-side {
+    width: 200px;
+  }
 }
 
 @media (max-width: 990px) {
@@ -692,6 +721,9 @@ $sortDescWhite: url(data:image/gif;base64,R0lGODlhFQAEAIAAAP///////yH5BAEAAAEALA
   }
   .site-header .media-heading {
     padding-top: 10px;
+  }
+  .menu-side {
+    width: 100%;
   }
 }
 
