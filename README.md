@@ -53,6 +53,9 @@ For the default gulp task a browser should open with the Beautiful Gardens site.
 
 ## Changelog ##
 
+### 0.1.5 ###
+* Added content to Home page
+
 ### 0.1.4 ###
 * Added default index page to sub directories
 * Added return to gallery index link to gallery pages
