@@ -3,44 +3,284 @@
   "headertype": "Type",
   "headergarden": "Garden",
   "gardendata": [{
-      "name": "Plant 1",
-      "type": "Type 1",
-      "garden": "Garden 1"
+      "name": "Candelabra tree",
+      "type": "tree",
+      "garden": "Desert Garden"
     },
     {
-      "name": "Plant 2",
-      "type": "Type 3",
-      "garden": "Garden 2"
+      "name": "Golden Barrel cactus",
+      "type": "succulent",
+      "garden": "Desert Garden"
     },
     {
-      "name": "Plant 3",
-      "type": "Type 3",
-      "garden": "Garden 3"
+      "name": "Aloe",
+      "type": "succulent",
+      "garden": "Desert Garden"
     },
     {
-      "name": "Plant 4",
-      "type": "Type 2",
-      "garden": "Garden 3"
+      "name": "Agave",
+      "type": "succulent",
+      "garden": "Desert Garden"
     },
     {
-      "name": "Plant 5",
-      "type": "Type 1",
-      "garden": "Garden 3"
+      "name": "Quiver tree",
+      "type": "tree",
+      "garden": "Desert Garden"
     },
     {
-      "name": "Plant 6",
-      "type": "Type 1",
-      "garden": "Garden 4"
+      "name": "Joshua tree",
+      "type": "tree",
+      "garden": "Desert Garden"
     },
     {
-      "name": "Plant 7",
-      "type": "Type 3",
-      "garden": "Garden 4"
+      "name": "Dragon tree",
+      "type": "tree",
+      "garden": "Desert Garden"
     },
     {
-      "name": "Plant 8",
-      "type": "Type 2",
-      "garden": "Garden 1"
+      "name": "Boojum tree",
+      "type": "tree",
+      "garden": "Desert Garden"
+    },
+    {
+      "name": "Ice Plant",
+      "type": "groundcover",
+      "garden": "Desert Garden"
+    },
+    {
+      "name": "Monstrose Peruvian apple cactus",
+      "type": "succulent",
+      "garden": "Desert Garden"
+    },
+    {
+      "name": "Pencil cactus",
+      "type": "succulent",
+      "garden": "Desert Garden"
+    },
+    {
+      "name": "Crown of Thorns",
+      "type": "shrub",
+      "garden": "Desert Garden"
+    },
+    {
+      "name": "Palo Verde",
+      "type": "tree",
+      "garden": "Desert Garden"
+    },
+    {
+      "name": "Queensland bottle tree",
+      "type": "tree",
+      "garden": "Desert Garden"
+    },
+    {
+      "name": "Leucadendron",
+      "type": "shrub",
+      "garden": "Balboa Park"
+    },
+    {
+      "name": "Snapdragon",
+      "type": "flower",
+      "garden": "Balboa Park"
+    },
+    {
+      "name": "Redbud",
+      "type": "tree",
+      "garden": "Balboa Park"
+    },
+    {
+      "name": "Coral tree",
+      "type": "tree",
+      "garden": "Balboa Park"
+    },
+    {
+      "name": "Pink Tulip tree",
+      "type": "tree",
+      "garden": "Balboa Park"
+    },
+    {
+      "name": "Canary Island pine",
+      "type": "tree",
+      "garden": "Balboa Park"
+    },
+    {
+      "name": "Rose",
+      "type": "flower",
+      "garden": "Balboa Park"
+    },
+    {
+      "name": "Lily",
+      "type": "flower",
+      "garden": "Balboa Park"
+    },
+    {
+      "name": "Orchid",
+      "type": "flower",
+      "garden": "Balboa Park"
+    },
+    {
+      "name": "Wisteria",
+      "type": "shrub",
+      "garden": "Balboa Park"
+    },
+    {
+      "name": "Cherry",
+      "type": "tree",
+      "garden": "Balboa Park"
+    },
+    {
+      "name": "Moreton Bay fig",
+      "type": "tree",
+      "garden": "Balboa Park"
+    },
+    {
+      "name": "Bromeliad",
+      "type": "groundcover",
+      "garden": "Balboa Park"
+    },
+    {
+      "name": "Dwarf Sweet Pea Bush",
+      "type": "shrub",
+      "garden": "Balboa Park"
+    },
+    {
+      "name": "Apple",
+      "type": "tree",
+      "garden": "Cedar Valley Arboretum"
+    },
+    {
+      "name": "Cherry",
+      "type": "tree",
+      "garden": "Cedar Valley Arboretum"
+    },
+    {
+      "name": "Maple",
+      "type": "tree",
+      "garden": "Cedar Valley Arboretum"
+    },
+    {
+      "name": "Oak",
+      "type": "tree",
+      "garden": "Cedar Valley Arboretum"
+    },
+    {
+      "name": "Redbud",
+      "type": "tree",
+      "garden": "Cedar Valley Arboretum"
+    },
+    {
+      "name": "Rose",
+      "type": "flower",
+      "garden": "Cedar Valley Arboretum"
+    },
+    {
+      "name": "Daylily",
+      "type": "flower",
+      "garden": "Cedar Valley Arboretum"
+    },
+    {
+      "name": "Zebra Grass",
+      "type": "grasses",
+      "garden": "Cedar Valley Arboretum"
+    },
+    {
+      "name": "Pampas Grass",
+      "type": "grasses",
+      "garden": "Cedar Valley Arboretum"
+    },
+    {
+      "name": "Clematis",
+      "type": "flower",
+      "garden": "Cedar Valley Arboretum"
+    },
+    {
+      "name": "Petunia",
+      "type": "flower",
+      "garden": "Cedar Valley Arboretum"
+    },
+    {
+      "name": "Hibiscus",
+      "type": "flower",
+      "garden": "Cedar Valley Arboretum"
+    },
+    {
+      "name": "Serviceberry",
+      "type": "shrub",
+      "garden": "Cedar Valley Arboretum"
+    },
+    {
+      "name": "Viburnum",
+      "type": "shrub",
+      "garden": "Cedar Valley Arboretum"
+    },
+    {
+      "name": "Moreton Bay fig",
+      "type": "tree",
+      "garden": "UC Irvine"
+    },
+    {
+      "name": "Red Crape Myrtle",
+      "type": "tree",
+      "garden": "UC Irvine"
+    },
+    {
+      "name": "California Sycamore",
+      "type": "tree",
+      "garden": "UC Irvine"
+    },
+    {
+      "name": "Pink Tulip tree",
+      "type": "tree",
+      "garden": "UC Irvine"
+    },
+    {
+      "name": "Redbud",
+      "type": "tree",
+      "garden": "UC Irvine"
+    },
+    {
+      "name": "Rose",
+      "type": "flower",
+      "garden": "UC Irvine"
+    },
+    {
+      "name": "Bearded Iris",
+      "type": "flower",
+      "garden": "UC Irvine"
+    },
+    {
+      "name": "Jacaranda",
+      "type": "tree",
+      "garden": "UC Irvine"
+    },
+    {
+      "name": "Canary Island pine",
+      "type": "tree",
+      "garden": "UC Irvine"
+    },
+    {
+      "name": "Orchid",
+      "type": "flower",
+      "garden": "UC Irvine"
+    },
+    {
+      "name": "Aloe",
+      "type": "succulent",
+      "garden": "UC Irvine"
+    },
+    {
+      "name": "Bougainvillea",
+      "type": "flower",
+      "garden": "UC Irvine"
+    },
+    {
+      "name": "Honeysuckle",
+      "type": "shrub",
+      "garden": "UC Irvine"
+    },
+    {
+      "name": "Doctorbush",
+      "type": "shrub",
+      "garden": "UC Irvine"
     }
   ]
 }

@@ -53,6 +53,9 @@ For the default gulp task a browser should open with the Beautiful Gardens site.
 
 ## Changelog ##
 
+### 0.1.7 ###
+* Added content for Plant List page
+
 ### 0.1.6 ###
 * Added picture caption content for gallery pages
 
