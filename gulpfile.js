@@ -35,18 +35,19 @@ var sassOptions = {
     includePaths: BOOTSTRAP + '/stylesheets'
 };
 
+var SOURCELOC = 'src/';
 var SOURCEPATHS = {
-    sourceFolder: 'src/',
-    sassSource: 'src/scss/app.scss',
-    cssSpecificSource: 'src/scss/css-specific/*.css',
-    htmlSource: 'src/pages/**/*.{html,hbs}',
-    layoutSource: 'src/{layouts,partials,data,helpers}/**/*.{html,hbs}',
-    imgSource: 'src/img/**/*.{png,jpg,gif,svg}',
-    imgGallerySource: 'src/gallery/**/*.{png,jpg,gif,svg}',
-    fontSource: 'src/fonts/**/*.{otf,eot,svg,ttf,woff,woff2}',
-    jsSpecificSource: 'src/js/js-specific/*.js',
+    sourceFolder: SOURCELOC,
+    sassSource: SOURCELOC + 'scss/app.scss',
+    cssSpecificSource: SOURCELOC + 'scss/css-specific/*.css',
+    htmlSource: SOURCELOC + 'pages/**/*.{html,hbs}',
+    layoutSource: SOURCELOC + '{layouts,partials,data,helpers}/**/*.{html,hbs}',
+    imgSource: SOURCELOC + 'img/**/*.{png,jpg,gif,svg}',
+    imgGallerySource: SOURCELOC + 'gallery/**/*.{png,jpg,gif,svg}',
+    fontSource: SOURCELOC + 'fonts/**/*.{otf,eot,svg,ttf,woff,woff2}',
+    jsSpecificSource: SOURCELOC + 'js/js-specific/*.js',
     jsSource: [
-        'src/js/jquerycheck.js',
+        SOURCELOC + 'js/jquerycheck.js',
         // Pick JS components used in project
         BOOTSTRAP + '/javascripts/bootstrap/transition.js',
         // BOOTSTRAP + '/javascripts/bootstrap/alert.js',
@@ -61,18 +62,19 @@ var SOURCEPATHS = {
         // BOOTSTRAP + '/javascripts/bootstrap/tab.js',
         BOOTSTRAP + '/javascripts/bootstrap/affix.js',
         // Custom and vendor JS
-        'src/js/vendor/*.js',
-        'src/js/custom.js'
+        SOURCELOC + 'js/vendor/*.js',
+        SOURCELOC + 'js/custom.js'
     ],
 };
 
+var APPLOC = '../dist';
 var APPPATH = {
-    root: 'dist',
-    css: 'dist/css',
-    js: 'dist/js',
-    img: 'dist/img',
-    gallery: 'dist/gallery',
-    font: 'dist/fonts'
+    root: APPLOC,
+    css: APPLOC + '/css',
+    js: APPLOC + '/js',
+    img: APPLOC + '/img',
+    gallery: APPLOC + '/gallery',
+    font: APPLOC + '/fonts'
 };
 
 var browserSyncFiles = [
@@ -121,11 +123,11 @@ function scriptsmin() {
 function pages() {
     return gulp.src(SOURCEPATHS.htmlSource)
         .pipe(panini({
-            root: 'src/pages/',
-            layouts: 'src/layouts/',
-            partials: 'src/partials/',
-            data: 'src/data/',
-            helpers: 'src/helpers'
+            root: SOURCELOC + 'pages/',
+            layouts: SOURCELOC + 'layouts/',
+            partials: SOURCELOC + 'partials/',
+            data: SOURCELOC + 'data/',
+            helpers: SOURCELOC + 'helpers'
         }))
         .pipe(gulp.dest(APPPATH.root));
 }
