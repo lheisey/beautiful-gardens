@@ -67,7 +67,7 @@ var SOURCEPATHS = {
     ],
 };
 
-var APPLOC = '../dist';
+var APPLOC = '../beautifulgardenssite';
 var APPPATH = {
     root: APPLOC,
     css: APPLOC + '/css',

@@ -53,6 +53,9 @@ For the default gulp task a browser should open with the Beautiful Gardens site.
 
 ## Changelog ##
 
+### 1.0.0 ###
+* Renamed APP directory to beautifulgardenssite
+
 ### 0.1.10 ###
 * Moved APP directory to different location
 
