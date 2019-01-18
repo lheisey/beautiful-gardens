@@ -51,7 +51,15 @@ gulp        //builds and runs BrowserSync
 
 For the default gulp task a browser should open with the Beautiful Gardens site.
 
+## Demo website ##
+
+A Demo website of the Beautiful Gardens static website generator boilerplate is at https://lheisey.github.io/beautiful-gardens-site
+
 ## Changelog ##
+
+### 1.0.1 ###
+
+* Added Beautiful Gardens demo website link to readme
 
 ### 1.0.0 ###
 * Renamed APP directory to beautifulgardenssite
