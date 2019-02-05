@@ -57,6 +57,10 @@ A Demo website of the Beautiful Gardens static website generator boilerplate is 
 
 ## Changelog ##
 
+### 1.0.3 ###
+
+* Moved tablesorter scss to separate file
+
 ### 1.0.2 ###
 
 * Made Home page pictures links to galleries
