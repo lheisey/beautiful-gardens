@@ -45,6 +45,7 @@ var SOURCEPATHS = {
     imgSource: SOURCELOC + 'img/**/*.{png,jpg,gif,svg}',
     imgGallerySource: SOURCELOC + 'gallery/**/*.{png,jpg,gif,svg}',
     fontSource: SOURCELOC + 'fonts/**/*.{otf,eot,svg,ttf,woff,woff2}',
+    readmeSource: SOURCELOC + 'README.md',
     jsSpecificSource: SOURCELOC + 'js/js-specific/*.js',
     jsSource: [
         SOURCELOC + 'js/jquerycheck.js',
@@ -162,13 +163,15 @@ gulp.task('copy-assets', function(done) {
     // Copy font files
     gulp.src(SOURCEPATHS.fontSource)
         .pipe(gulp.dest(APPPATH.font));
-    done();
     // Copy css files only used on specific pages
     gulp.src(SOURCEPATHS.cssSpecificSource)
         .pipe(gulp.dest(APPPATH.css));
     // Copy js files only used on specific pages
     gulp.src(SOURCEPATHS.jsSpecificSource)
         .pipe(gulp.dest(APPPATH.js));
+    // Copy github readme for website
+    gulp.src(SOURCEPATHS.readmeSource)
+        .pipe(gulp.dest(APPPATH.root));
     done();
 });
 
