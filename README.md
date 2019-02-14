@@ -57,6 +57,10 @@ A Demo website of the Beautiful Gardens static website generator boilerplate is 
 
 ## Changelog ##
 
+### 1.1.0 ###
+
+* Created partial for section-title block
+
 ### 1.0.5 ###
 
 * Added gulp copy of github readme for website
