@@ -1,5 +1,53 @@
 ---
-layout: defaultindex
-title: Default Page
+layout: default
+title: Picture Galleries
+pageactive: gallery
 ---
-    {{> defaultpagecontent}}
+{{> sectiontitle}}
+
+<section class="gallery-index">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-6 col-sm-12">
+        <div class="item">
+          <div class="item-content text-center">
+            <header>
+              <p class="item-caption"><a href="{{root}}gallery/gallery1/gallery1.html">Balboa Park</a></p>
+            </header>
+          </div>
+          <a href="{{root}}gallery/gallery1/gallery1.html"><img src="{{root}}img/balboa-park-front.jpg" alt="Balboa Park"></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="item">
+          <div class="item-content text-center">
+            <header>
+              <p class="item-caption"><a href="{{root}}gallery/gallery2/gallery2.html">Cedar Valley Arboretum</a></p>
+            </header>
+          </div>
+          <a href="{{root}}gallery/gallery2/gallery2.html"><img src="{{root}}img/cedar-valley-arboretum-front.jpg" alt="Cedar Valley Arboretum"></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="item">
+          <div class="item-content text-center">
+            <header>
+              <p class="item-caption"><a href="{{root}}gallery/gallery3/gallery3.html">UC Irvine campus</a></p>
+            </header>
+          </div>
+          <a href="{{root}}gallery/gallery3/gallery3.html"><img src="{{root}}img/uc-irvine-front.jpg" alt="UC Irvine campus"></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="item">
+          <div class="item-content text-center">
+            <header>
+              <p class="item-caption"><a href="{{root}}gallery/gallery4/gallery4.html">Desert Garden</a></p>
+            </header>
+          </div>
+          <a href="{{root}}gallery/gallery4/gallery4.html"><img src="{{root}}img/desert-garden-front.jpg" alt="Desert Garden"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

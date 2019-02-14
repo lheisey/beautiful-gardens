@@ -57,6 +57,11 @@ A Demo website of the Beautiful Gardens static website generator boilerplate is 
 
 ## Changelog ##
 
+### 1.1.1 ###
+
+* Change to show active for more than one index.html in navbar
+* Copy gallery.html to index.html and delete gallery.html
+
 ### 1.1.0 ###
 
 * Created partial for section-title block
