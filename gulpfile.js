@@ -130,6 +130,7 @@ function pages() {
             data: SOURCELOC + 'data/',
             helpers: SOURCELOC + 'helpers'
         }))
+        .pipe(rename({ extname: '.html' }))
         .pipe(gulp.dest(APPPATH.root));
 }
 

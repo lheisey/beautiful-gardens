@@ -57,6 +57,12 @@ A Demo website of the Beautiful Gardens static website generator boilerplate is 
 
 ## Changelog ##
 
+### 1.1.2 ###
+
+* Remove gallery .html pages and add gallery .hbs pages
+* Implement workaround for hbs extension issue
+ * https://github.com/zurb/panini/issues/171
+
 ### 1.1.1 ###
 
 * Change to show active for more than one index.html in navbar
