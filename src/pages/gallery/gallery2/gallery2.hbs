@@ -1,0 +1,23 @@
+---
+layout: default
+title: Cedar Valley Arboretum Picture Gallery
+lightgallery: true
+---
+{{> sectiontitle}}
+
+<section>
+  <div class="container">
+    <div class="garden-gallery">
+      <ul id="lightgallery" class="list-unstyled">
+        {{#each galleries.gallery2}}
+          <li class="col-xs-6 col-sm-4 col-md-3" data-src="{{fullsize}}" data-sub-html="<h4>{{caption}}</h4>">
+            <a href="">
+              <img class="img-responsive img-thumbnail" src="{{thumbnail}}">
+            </a>
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+  <p class="gallery-return hidden-print"><i class="glyphicon glyphicon-link"></i> <a href="{{root}}gallery/index.html">Return to Picture Galleries page</a></p>
+</section>
