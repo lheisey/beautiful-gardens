@@ -57,10 +57,14 @@ A Demo website of the Beautiful Gardens static website generator boilerplate is 
 
 ## Changelog ##
 
+### 1.1.3 ###
+
+* Added favicons
+
 ### 1.1.2 ###
 
-* Remove gallery .html pages and add gallery .hbs pages
-* Implement workaround for hbs extension issue
+* Removed gallery .html pages and added gallery .hbs pages
+* Implemented workaround for hbs extension issue
  * https://github.com/zurb/panini/issues/171
 
 ### 1.1.1 ###
