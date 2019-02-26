@@ -57,6 +57,10 @@ A Demo website of the Beautiful Gardens static website generator boilerplate is 
 
 ## Changelog ##
 
+### 1.1.4 ###
+
+* Fixed favicon manifest files
+
 ### 1.1.3 ###
 
 * Added favicons
