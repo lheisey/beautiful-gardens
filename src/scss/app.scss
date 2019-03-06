@@ -432,6 +432,18 @@ footer a {
   #page-wrap {
     max-width: 100%;
   }
+  section {
+    padding-top: 5px;
+  }
+  .site-header {
+    height: 83px;
+    border-top: 2pt solid #000;
+    border-bottom: 2pt solid #000;
+  }
+  .site-header .media-heading {
+    padding-top: 0;
+    font-size: 50px;
+  }
   .gallery-index .item-content {
     position: static;
   }
