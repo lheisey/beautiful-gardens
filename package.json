@@ -1,12 +1,12 @@
 {
   "name": "beautiful-gardens",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "Static website generator boilerplate",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/lheisey/beautiful-gardens.git"
   },
@@ -18,20 +18,20 @@
   ],
   "author": "Loren Heisey",
   "license": "GPL-2.0",
-    "bugs": {
+  "bugs": {
     "url": "https://github.com/lheisey/beautiful-gardens/issues"
   },
   "homepage": "https://github.com/lheisey/beautiful-gardens#readme",
   "devDependencies": {
     "bootstrap-sass": "^3.3.7",
-    "browser-sync": "^2.24.7",
+    "browser-sync": "^2.26.3",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-clean-css": "^3.10.0",
     "gulp-concat": "^2.6.1",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.1",
-    "gulp-uglify": "^3.0.1",
-    "panini": "^1.6.2"
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "panini": "^1.6.3"
   }
 }
