@@ -59,6 +59,7 @@ A Demo website of the Beautiful Gardens static website generator boilerplate is 
 
 ### 1.2.1 ###
 * Changed media object implementation
+* Removed container HTML from header
 
 ### 1.2.0 ###
 * Updated Bootstrap to version 3.4.1
