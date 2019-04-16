@@ -57,6 +57,9 @@ A Demo website of the Beautiful Gardens static website generator boilerplate is 
 
 ## Changelog ##
 
+### 1.2.2 ###
+* Made site header text a link
+
 ### 1.2.1 ###
 * Changed media object implementation
 * Removed container HTML from header

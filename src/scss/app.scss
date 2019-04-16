@@ -121,6 +121,11 @@ h3 {
   color: $brand-tertiary;
 }
 
+.site-header .media-heading a {
+  color: $brand-tertiary;
+  text-decoration: none;
+}
+
 .navbar-nav > li > a {
   padding: 16px;
   font-size: 18px;
