@@ -484,6 +484,28 @@ footer a {
     padding-top: 0;
     font-size: 50px;
   }
+  .site-header .media-heading a {
+    color: $brand-tertiary !important;
+  }
+  .section-title h1 {
+    color: $brand-primary !important;
+  }
+  .section-header h2 {
+    color: $brand-tertiary !important;
+  }
+  .section-seperator {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+    color: $brand-tertiary !important;
+  }
+  .feature-list li {
+    font-size: 16px;
+    line-height: 1.6em;
+  }
+  .links-list li {
+    font-size: 16px;
+    line-height: 1.6em;
+  }
   .gallery-index .item-content {
     position: static;
   }
