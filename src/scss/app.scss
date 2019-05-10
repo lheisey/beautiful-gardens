@@ -43,6 +43,8 @@ $navbar-inverse-toggle-hover-bg: $navbar-inverse-custom-active-bg;
 $navbar-inverse-toggle-icon-bar-bg: #fff;
 $navbar-inverse-toggle-border-color: $navbar-inverse-custom-active-bg;
 
+$link-color-visited: #724e76;
+
 /* Edit bootstrap.scss to pick CSS components used in project  */
 @import "bootstrap.scss";
 @import "./font-awesome/font-awesome.scss";
@@ -65,6 +67,14 @@ h2,
 h3 {
   text-transform: uppercase;
   font-family: $font-family-serif;
+}
+
+a:visited {
+  color: $link-color-visited;
+}
+
+.btn-primary:visited {
+  color: $text-color-light;
 }
 
 .font-md-lg {
@@ -375,7 +385,15 @@ footer {
 }
 
 footer a {
-  color: $gray-lighter;
+  color: $brand-primary-light;
+}
+
+footer a:visited {
+  color: $text-color-light;
+}
+
+footer a:hover {
+  color: $brand-secondary-very-light;
 }
 
 #page-wrap {
