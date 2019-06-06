@@ -57,6 +57,9 @@ A Demo website of the Beautiful Gardens static website generator boilerplate is 
 
 ## Changelog ##
 
+### 1.2.7 ###
+* Updated browser-sync
+
 ### 1.2.6 ###
 * Changed visited link color
 
