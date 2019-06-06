@@ -93,8 +93,8 @@ var browserSyncFiles = [
 */
 function styles() {
     return gulp.src(SOURCEPATHS.sassSource)
-        .pipe(autoprefixer(autoprefixerOptions))
         .pipe(sass(sassOptions).on('error', sass.logError))
+        .pipe(autoprefixer(autoprefixerOptions))
         .pipe(gulp.dest(APPPATH.css))
         .pipe(cleanCSS({compatibility: 'ie8'}))
         .pipe(rename({ extname: '.min.css' }))
