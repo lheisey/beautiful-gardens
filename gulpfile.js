@@ -15,19 +15,6 @@ var gulp = require('gulp'),
 // Set path to Bootstrap files
 var BOOTSTRAP = 'node_modules/bootstrap-sass/assets';
 
-var autoprefixerOptions = {
-    browsers: [
-        'Android 2.3',
-        'Android >= 4',
-        'Chrome >= 20',
-        'Firefox >= 24',
-        'Explorer >= 8',
-        'iOS >= 6',
-        'Opera >= 12',
-        'Safari >= 6'
-    ]
-};
-
 var sassOptions = {
     precision: 8,
     errLogToConsole: true,
@@ -94,7 +81,7 @@ var browserSyncFiles = [
 function styles() {
     return gulp.src(SOURCEPATHS.sassSource)
         .pipe(sass(sassOptions).on('error', sass.logError))
-        .pipe(autoprefixer(autoprefixerOptions))
+        .pipe(autoprefixer())
         .pipe(gulp.dest(APPPATH.css))
         .pipe(cleanCSS({compatibility: 'ie8'}))
         .pipe(rename({ extname: '.min.css' }))

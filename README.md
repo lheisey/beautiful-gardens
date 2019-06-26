@@ -57,6 +57,9 @@ A Demo website of the Beautiful Gardens static website generator boilerplate is 
 
 ## Changelog ##
 
+### 1.3.1 ###
+* Added .browserslistrc file
+
 ### 1.3.0 ###
 * Updated gulp-autoprefixer
 * Moved autoprefixer after sass in gulp file
