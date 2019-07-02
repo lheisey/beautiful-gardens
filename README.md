@@ -4,7 +4,7 @@ A static website generator boilerplate.
 
 ## Description ##
 
-The Beautiful Gardens static website generator boilerplate was developed for use on my innermind website. This can be used as a starting point for a static generated site or just serve as an example of how a site of this type can be done.
+The Beautiful Gardens static website generator boilerplate was developed for use on my innermind.com website. This can be used as a starting point for a static generated site or just serve as an example of how a site of this type can be done.
 
 ## Features ##
 
@@ -56,6 +56,9 @@ For the default gulp task a browser should open with the Beautiful Gardens site.
 A Demo website of the Beautiful Gardens static website generator boilerplate is at https://lheisey.github.io/beautiful-gardens-site
 
 ## Changelog ##
+
+### 1.3.2 ###
+* Changed to only show meta name if defined
 
 ### 1.3.1 ###
 * Added .browserslistrc file
