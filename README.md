@@ -57,6 +57,9 @@ A Demo website of the Beautiful Gardens static website generator boilerplate is 
 
 ## Changelog ##
 
+### 1.3.5 ###
+* Updated gulp plugin dependencies
+
 ### 1.3.4 ###
 * Added glyphicons-halflings-regular.woff2 font file
 
