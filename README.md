@@ -57,6 +57,9 @@ A Demo website of the Beautiful Gardens static website generator boilerplate is 
 
 ## Changelog ##
 
+### 1.3.8 ###
+* Added Node.js logo
+
 ### 1.3.7 ###
 * Updated gulp plugin dependencies
 
