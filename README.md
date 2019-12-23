@@ -57,6 +57,12 @@ A Demo website of the Beautiful Gardens static website generator boilerplate is 
 
 ## Changelog ##
 
+### 1.3.10 ###
+* Implemented year helper in footer
+
+### 1.3.9 ###
+* Added year and month-year Handlebars helpers
+
 ### 1.3.8 ###
 * Added Node.js logo
 
