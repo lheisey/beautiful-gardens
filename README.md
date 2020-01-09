@@ -57,6 +57,9 @@ A Demo website of the Beautiful Gardens static website generator boilerplate is 
 
 ## Changelog ##
 
+### 1.3.11 ###
+* Update to change generated pages to year 2020
+
 ### 1.3.10 ###
 * Implemented year helper in footer
 
