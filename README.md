@@ -57,6 +57,9 @@ A Demo website of the Beautiful Gardens static website generator boilerplate is 
 
 ## Changelog ##
 
+### 1.4.4 ###
+* Hide top of page button for print
+
 ### 1.4.3 ###
 * Updated gulp plugin dependencies
 
