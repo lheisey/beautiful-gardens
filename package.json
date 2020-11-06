@@ -1,6 +1,6 @@
 {
   "name": "beautiful-gardens",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "description": "Static website generator boilerplate",
   "main": "index.js",
   "scripts": {

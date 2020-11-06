@@ -47,7 +47,8 @@ $link-color-visited: #724e76;
 
 /* Edit bootstrap.scss to pick CSS components used in project  */
 @import "bootstrap.scss";
-@import "./font-awesome/font-awesome.scss";
+// Uncomment to use FontAwesome version 4
+// @import "./font-awesome/font-awesome.scss";
 
 /*!
  * Custom styles
@@ -99,8 +100,8 @@ a:visited {
   z-index: 1000;
 }
 #back-top::after {
-  content: "\f077";
-  font-family: FontAwesome;
+  content: "\e113";
+  font-family: "Glyphicons Halflings";
   font-weight: normal;
   font-style: normal;
   font-size: 2em;
