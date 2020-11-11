@@ -2,6 +2,7 @@
 
 ### 1.4.7 ###
 * Moved Change Log from README.md to CHANGELOG.md
+* Updated links
 
 ### 1.4.6 ###
 * Replaced top of page arrow with Bootstrap Glyphicon
