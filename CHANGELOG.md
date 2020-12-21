@@ -1,5 +1,8 @@
 ## Changelog ##
 
+### 1.4.8 ###
+* Added skip to content for screen readers
+
 ### 1.4.7 ###
 * Moved Change Log from README.md to CHANGELOG.md
 * Updated links
