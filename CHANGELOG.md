@@ -1,5 +1,8 @@
 ## Changelog ##
 
+### 1.4.9 ###
+* Updated gulp plugin dependencies
+
 ### 1.4.8 ###
 * Added skip to content for screen readers
 
