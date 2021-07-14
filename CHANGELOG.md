@@ -1,5 +1,9 @@
 ## Changelog ##
 
+### 1.5.0 ###
+* Updated gulp plugin dependencies
+* Updated gulp-sass to version 5
+
 ### 1.4.10 ###
 * Updated gulp plugin dependencies
 

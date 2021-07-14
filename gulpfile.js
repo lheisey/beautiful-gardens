@@ -3,7 +3,7 @@
 */
 'use strict';
 var gulp = require('gulp'),
-    sass = require('gulp-sass'),
+    sass = require('gulp-sass')(require('node-sass')),
     cleanCSS = require('gulp-clean-css'),
     rename = require('gulp-rename'),
     concat = require('gulp-concat'),
