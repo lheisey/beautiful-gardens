@@ -1,5 +1,8 @@
 ## Changelog ##
 
+### 1.5.2 ###
+* Updated gulp plugin dependencies
+
 ### 1.5.1 ###
 * Updated gulp plugin dependencies
 
