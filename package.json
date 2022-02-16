@@ -1,6 +1,6 @@
 {
   "name": "beautiful-gardens",
-  "version": "1.5.2",
+  "version": "1.5.4",
   "description": "Static website generator boilerplate",
   "main": "index.js",
   "scripts": {
@@ -32,7 +32,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^5.0.0",
     "gulp-uglify": "^3.0.2",
-    "node-sass": "^6.0.1",
-    "panini": "^1.6.3"
+    "node-sass": "^7.0.1",
+    "panini": "^1.7.2"
   }
 }
