@@ -1,5 +1,9 @@
 ## Changelog ##
 
+### 1.5.5 ###
+* Updated gulp plugin dependencies
+* Changed link for information on UC Irvine Aldrich Park
+
 ### 1.5.4 ###
 * Updated gulp plugin dependencies
 * Updated node-sass to version 7.0.1

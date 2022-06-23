@@ -1,6 +1,6 @@
 {
   "name": "beautiful-gardens",
-  "version": "1.5.4",
+  "version": "1.5.5",
   "description": "Static website generator boilerplate",
   "main": "index.js",
   "scripts": {
@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/lheisey/beautiful-gardens#readme",
   "devDependencies": {
-    "bootstrap-sass": "^3.4.1",
-    "browser-sync": "^2.26.7",
+    "bootstrap-sass": "3.4.1",
+    "browser-sync": "^2.27.10",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-clean-css": "^3.10.0",
