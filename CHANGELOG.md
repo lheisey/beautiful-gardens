@@ -3,6 +3,7 @@
 ### 1.6.0 ###
 * Updated bootstrap-sass to version 3.4.3
 * Changed from using node-sass to dart-sass
+* One change in _tablesorter-theme-custom.scss for dart-sass
 
 ### 1.5.6 ###
 * Update to change generated pages to year 2023
