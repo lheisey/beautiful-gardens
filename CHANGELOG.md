@@ -1,5 +1,8 @@
 ## Changelog ##
 
+### 1.5.6 ###
+* Update to change generated pages to year 2023
+
 ### 1.5.5 ###
 * Updated gulp plugin dependencies
 * Changed link for information on UC Irvine Aldrich Park
