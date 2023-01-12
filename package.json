@@ -23,16 +23,16 @@
   },
   "homepage": "https://github.com/lheisey/beautiful-gardens#readme",
   "devDependencies": {
-    "bootstrap-sass": "3.4.1",
+    "bootstrap-sass": "^3.4.3",
     "browser-sync": "^2.27.10",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-clean-css": "^3.10.0",
     "gulp-concat": "^2.6.1",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^5.0.0",
+    "gulp-sass": "^5.1.0",
     "gulp-uglify": "^3.0.2",
-    "node-sass": "^7.0.1",
-    "panini": "^1.7.2"
+    "panini": "^1.7.2",
+    "sass": "^1.57.1"
   }
 }
