@@ -1,5 +1,8 @@
 ## Changelog ##
 
+### 1.6.1 ###
+* Updated gulp plugin dependencies
+
 ### 1.6.0 ###
 * Updated bootstrap-sass to version 3.4.3
 * Changed from using node-sass to dart-sass
