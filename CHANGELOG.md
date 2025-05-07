@@ -1,5 +1,9 @@
 ## Changelog ##
 
+### 1.7.0 ###
+* Updated gulp plugin dependencies
+* Fixed sass to version 1.77.6 due to depreciation warnings
+
 ### 1.6.2 ###
 * Updated gulp plugin dependencies
 

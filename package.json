@@ -1,6 +1,6 @@
 {
   "name": "beautiful-gardens",
-  "version": "1.6.2",
+  "version": "1.7.0",
   "description": "Static website generator boilerplate",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   "devDependencies": {
     "bootstrap-sass": "^3.4.3",
     "browser-sync": "^2.29.3",
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-clean-css": "^3.10.0",
     "gulp-concat": "^2.6.1",
@@ -33,6 +33,6 @@
     "gulp-sass": "^5.1.0",
     "gulp-uglify": "^3.0.2",
     "panini": "^1.7.2",
-    "sass": "^1.68.0"
+    "sass": "1.77.6"
   }
 }
